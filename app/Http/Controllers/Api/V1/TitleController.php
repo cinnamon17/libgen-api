@@ -34,20 +34,26 @@ class TitleController extends Controller
     public function show($title)
     {
 
-        $users = DB::table('updated')
-                ->where('title', '=', "$title")
+        $title = str_replace(" ", "%", $title);
+
+        $data= DB::table('updated')
+                ->where('title', 'like', "$title%")
                 ->get();
 
-        $data = $users->toJson();
+        $count = $data->count();
+
+        if($count == 0){
+
+            $data ="No records found";
+        }
 
         return response()->json([
 
             'response' => 'success',
-            [
-                'data' => "$data"
-            ]
+            'results' => $count,
+            'data' => [$data]
+            
         ]);
-
 
     }
 
