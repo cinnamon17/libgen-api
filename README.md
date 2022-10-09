@@ -28,6 +28,10 @@ Testing title controller
 
 ![testing libgen](https://github.com/cinnamon17/libgen-api/blob/master/libgen-test.png)
 
+## TODO
+
+Implement the remaining endpoints: Author, Login, isbn.
+
 ## Contributing
 
 Thank you for considering contributing to the project just make a pull request i will check when i can :D
