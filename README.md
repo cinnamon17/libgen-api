@@ -16,7 +16,7 @@ This is an amazing project to implement for the first time an functional API for
 
 more endpoints will be discused! just open a issue
 
-## Making a request with postman
+## Making a request with PostMan
 
 ![postman request](https://github.com/cinnamon17/libgen-api/blob/master/postman-libgen.png)
 
