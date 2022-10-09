@@ -22,6 +22,12 @@ more endpoints will be discused! just open a issue
 
 9522 results! of course this takes too much time (5.77s) and that's why the database must be normalized multiple requests will kill the app
 
+## Testing
+
+Testing title controller
+
+![testing libgen](https://github.com/cinnamon17/libgen-api/blob/master/libgen-test.png)
+
 ## Contributing
 
 Thank you for considering contributing to the project just make a pull request i will check when i can :D
