@@ -22,7 +22,7 @@ more endpoints will be discused! just open a issue
 
 9522 results! of course this takes too much time (5.77s) and that's why the database must be normalized multiple requests will kill the app
 
-## Testing
+## Tests
 
 Testing title controller
 
