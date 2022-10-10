@@ -8,9 +8,9 @@ use Tests\TestCase;
 class ExampleTest extends TestCase
 {
         
-    use RefreshDatabase;
+    //use RefreshDatabase;
 
-    public function test_index_method_send_a_response(){
+    public function test_empty_get_method_send_a_response(){
 
 
         $response = $this->getJson('api/v1/title');
@@ -22,7 +22,7 @@ class ExampleTest extends TestCase
         ]);
     }
 
-    public function test_get_show_method_send_a_response(){
+    public function test_title_endpoint_send_a_response(){
 
 
         $title = "how to kill a mockingbird";
@@ -34,5 +34,6 @@ class ExampleTest extends TestCase
 
             'response' => 'success'
         ]);
+
     }
 }
