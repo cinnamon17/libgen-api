@@ -16,10 +16,17 @@ class TitleController extends Controller
      */
     public function index()
     {
+        $data= DB::table('updated')
+                ->skip(10)->take(10)
+                ->get();
+        
+        $count = $data->count();
+
         $data = [
 
             'response' => 'success',
-            'message' => 'Please make a more specific request',
+            'results' => $count,
+            'data' => [$data]
         ];
 
         return response()->json($data);
