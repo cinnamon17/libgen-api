@@ -14,7 +14,23 @@ This is an amazing project to implement for the first time an functional API for
 
 `api/v1/title`
 
-more endpoints will be discused! just open a issue 
+more endpoints will be discused! just open a issue
+
+## Making a request with Postman
+
+![postman request](https://github.com/cinnamon17/libgen-api/blob/master/postman-libgen.png)
+
+9522 results! of course this takes too much time (5.77s) and that's why the database must be normalized multiple requests will kill the app
+
+## Tests
+
+Testing title controller
+
+![testing libgen](https://github.com/cinnamon17/libgen-api/blob/master/libgen-test.png)
+
+## TODO
+
+Implement the remaining endpoints: Author, Login, isbn.
 
 ## Contributing
 
