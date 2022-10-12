@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\Api\V1\TitleController;
+use App\Http\Controllers\Api\V1\AuthorController;
+
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -20,3 +22,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::apiResource('v1/title', TitleController::class);
+Route::apiResource('v1/author', AuthorController::class);
