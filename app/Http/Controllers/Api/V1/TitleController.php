@@ -45,6 +45,7 @@ class TitleController extends Controller
 
         $data= DB::table('updated')
                 ->where('title', 'like', "$title%")
+                ->take(25)
                 ->get();
 
         $count = $data->count();
