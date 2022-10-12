@@ -30,7 +30,7 @@ Testing title controller
 
 ## TODO
 
-Implement the remaining endpoints: Author, Login, isbn.
+Implement the remaining endpoints: Login, isbn.
 
 ## Contributing
 
